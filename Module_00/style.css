@@ -1,0 +1,80 @@
+
+/* CSS Element Selector { EX:p }*/
+/* CSS ID Selector { EX: #ID-selcetor}*/
+/* CSS Class Selector { EX: .Class-selcetor}*/
+/* CSS Universal Selector { EX:*} * /
+/* CSS Grouping Selector { EX:h1,h2,p} */
+
+/* selector */
+.external
+/* Diclaretion block */
+{
+    /* property : value; */
+    color: rgb(25, 8, 216);
+    font-size: 20px;
+    font-weight: bold;
+    border-style: ridge;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+/* CSS Backgrounds Properties */
+body {
+    /* background-color: rgb(247, 219, 219); */
+    
+    /* background-image: url(wallpaperflare.com_wallpaper.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.btn{
+    background-color: rgb(255, 0, 0) !important;
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+}
+
+.btn
+{
+    background-color: rgb(221, 255, 0);
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+}
+
+
+.btn:hover{
+    background-color: rgb(6, 155, 40);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* .about{
+    background-color: #e1e169;
+    line-height: 160%;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    /* margin-top: 80px 80px 80px 80px; */
+/* }  */
+
+img{
+    width: 1000px;
+    height: auto;
+    /* CSS FILTER */
+    /* filter: brightness(120%); */
+    /* filter: blur(2px); */
+    /* filter: contrast(160%); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(100%); */
+    /* filter: opacity(50%); */
+    /* filter: saturate(160%); */
+    /* filter: sepia(100%); */
+}
