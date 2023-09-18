@@ -15,10 +15,10 @@ function printFirst10FibonacciNumbers() {
         if ($fibonacci_series[$i] > 100) {
             break; // Break out of the loop if a Fibonacci number is greater than 100
         }
-        
+            
         echo $fibonacci_series[$i];
         if ($i < 9) {
-            echo ', ';
+            echo ', '; // Add a comma and space for better readability (optional)
         }
     }
 }
